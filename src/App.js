@@ -15,7 +15,7 @@ function App() {
             <FontAwesomeIcon icon={faLinkedin} />
         </a>
 
-          <a class="github" href="https://github.com/moonprincelol" target="_blank_">
+          <a class="github" href="https://github.com/phwvng" target="_blank_">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
