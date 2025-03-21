@@ -35,21 +35,21 @@ function App() {
         <h3 className="freecodecamp">freeCodeCamp <FontAwesomeIcon icon={faFreeCodeCamp}/></h3>
         <hr></hr>
         <p className="project">
-          <a href="https://moonprincelol.github.io/randomQuoteMachine" target="_blank_">Random Quote Machine</a>
+          <a href="https://phwvng.github.io/randomQuoteMachine" target="_blank_">Random Quote Machine</a>
         </p>
         <p className="project">
-          <a href="https://moonprincelol.github.io/markdown-previewer"  target="_blank_">Markdown Previewer</a>
-        </p>
-
-        <p className="project">
-          <a href="https://moonprincelol.github.io/drum-machine"  target="_blank_">Drum Machine</a>
+          <a href="https://phwvng.github.io/markdown-previewer"  target="_blank_">Markdown Previewer</a>
         </p>
 
         <p className="project">
-          <a href="https://moonprincelol.github.io/js-calculator/"  target="_blank_">Calculator</a>
+          <a href="https://phwvng.github.io/drum-machine"  target="_blank_">Drum Machine</a>
+        </p>
+
+        <p className="project">
+          <a href="https://phwvng.github.io/js-calculator/"  target="_blank_">Calculator</a>
         </p>
         <p className="project">
-          <a href="https://moonprincelol.github.io/25plus5-clock"  target="_blank_">Pomodoro Clock</a>
+          <a href="https://phwvng.github.io/25plus5-clock"  target="_blank_">Pomodoro Clock</a>
         </p>
         </div>
         </div>
