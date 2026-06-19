@@ -1,14 +1,14 @@
 import React from "react";
+import HeroSection from "../components/HeroSection";
 import Skills from "../components/Skills";
 
 const Home = () => {
-
-    return(
- <>
- <h1>Home</h1>
- <p>Welcome to my portfolio</p>
- <Skills/>
- </>
-    )};
+  return (
+    <>
+      <HeroSection />
+      <Skills />
+    </>
+  );
+};
 
 export default Home;
