@@ -4,11 +4,11 @@ import { faPython, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 export const SkillsContainer = styled.section`
   background: #f8fafc;
-  padding: 140px 8%;
+  padding: 85px 6%;
 `;
 
 export const SkillsContent = styled.div`
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 `;
@@ -16,30 +16,31 @@ export const SkillsContent = styled.div`
 export const SkillsLabel = styled.p`
   font-family: 'JetBrains Mono', monospace;
   color: #00a86b;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 `;
 
 export const SkillsTitle = styled.h2`
-  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(1.8rem, 3.6vw, 2.8rem);
   font-weight: 800;
   color: #0d1117;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 `;
 
 export const SkillsSubtitle = styled.p`
-  max-width: 620px;
-  margin: 0 auto 70px;
+  max-width: 560px;
+  margin: 0 auto 48px;
   color: #64748b;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   line-height: 1.7;
 `;
 
 export const SkillsList = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -52,31 +53,32 @@ export const SkillsList = styled.ul`
 export const SkillsItem = styled.li`
   background: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 22px;
-  padding: 46px 28px;
+  border-radius: 16px;
+  padding: 30px 20px;
   transition: all 0.3s ease;
-  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
 
   &:hover {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
     border-color: #00a86b;
-    box-shadow: 0 22px 45px rgba(15, 23, 42, 0.1);
+    box-shadow: 0 18px 36px rgba(15, 23, 42, 0.1);
   }
 `;
 
 export const SkillsIconWrapper = styled.div`
-  margin-bottom: 26px;
+  margin-bottom: 18px;
 `;
 
 export const SkillsText = styled.h3`
-  font-size: 1.35rem;
-  font-weight: 800;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
   color: #0d1117;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 `;
 
 export const SkillsDescription = styled.p`
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   color: #64748b;
   line-height: 1.6;
 `;
@@ -84,20 +86,20 @@ export const SkillsDescription = styled.p`
 export const PythonIcon = styled(FontAwesomeIcon).attrs({
   icon: faPython,
 })`
-  font-size: 4rem;
+  font-size: 3rem;
   color: #3776ab;
 `;
 
 export const JSIcon = styled(FontAwesomeIcon).attrs({
   icon: faJs,
 })`
-  font-size: 4rem;
+  font-size: 3rem;
   color: #f7df1e;
 `;
 
 export const ReactIcon = styled(FontAwesomeIcon).attrs({
   icon: faReact,
 })`
-  font-size: 4rem;
+  font-size: 3rem;
   color: #61dafb;
 `;
